@@ -114,7 +114,7 @@ if st.button("Generate Research Article"):
                 allow_delegation=False,
                 verbose=True,
                 temperature=temperature,
-                llm: azure/gpt-4
+                llm=llm 
             )
 
             writer = Agent(
@@ -124,7 +124,7 @@ if st.button("Generate Research Article"):
                 allow_delegation=False,
                 verbose=True,
                 temperature=temperature,
-                llm: azure/gpt-4
+                llm=llm 
             )
 
             editor = Agent(
@@ -134,7 +134,7 @@ if st.button("Generate Research Article"):
                 allow_delegation=False,
                 verbose=True,
                 temperature=temperature,
-                llm: azure/gpt-4
+                llm=llm 
             )
 
             # Define tasks
